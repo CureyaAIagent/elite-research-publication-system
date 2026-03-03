@@ -1,5 +1,5 @@
 ---
-name: Elite Research Publication & Journal Readiness System
+name: elite-research-publication-journal-readiness-system
 description: End-to-end research manuscript integrity audit, SCOPUS readiness evaluation, UGC-CARE compliance review, senior reviewer simulation, journal recommendation, and publication optimization engine.
 version: "1.0"
 author: CUREEYA
