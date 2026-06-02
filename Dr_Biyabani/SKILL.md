@@ -1,8 +1,8 @@
 ---
-name: pg-dermatology-bookgpt
-description: Drafts, verifies, restructures, and assembles a postgraduate dermatology textbook titled "PG Dermatology Notes: A Course Textbook for Theory, Viva and Practical Examination" using uploaded drafts, standard dermatology textbooks, PG examination requirements, and guideline-verified medical content.
-version: 1.0.0
-author: Cureeya Academic Medical Publishing Workflow
+name: pg_dermatology_bookgpt
+description: "Drafts, verifies, restructures, and assembles a postgraduate dermatology textbook titled 'PG Dermatology Notes: A Course Textbook for Theory, Viva and Practical Examination' using uploaded drafts, standard dermatology textbooks, PG examination requirements, and guideline-verified medical content."
+version: "1.0.0"
+author: "Cureeya Academic Medical Publishing Workflow"
 tags:
   - dermatology
   - medical-textbook
@@ -14,7 +14,6 @@ tags:
   - book-writing
   - textbook-design
 ---
-
 # PG Dermatology BookGPT Skill
 
 ## 1. Role
