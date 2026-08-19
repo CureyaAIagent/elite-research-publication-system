@@ -1,0 +1,20 @@
+name: ResearchOS Mirror Verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify-mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify ResearchOS mirror manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f researchos-mirror/MIRROR_MANIFEST.md
+          grep -q "Base44 app" researchos-mirror/MIRROR_MANIFEST.md
+          grep -q "Base44 checkpoint" researchos-mirror/MIRROR_MANIFEST.md
+          echo "Mirror manifest present."
